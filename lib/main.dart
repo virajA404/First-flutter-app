@@ -10,13 +10,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(backgroundColor: Colors.amber, 
         title: const Text("Flutter is Fun")
         ),
         body: Center(
           child: Container(
-          child: const Text("Hi Mom"),
+          child: const Text("Hi Viraj"),
           margin: const EdgeInsets.all(100),
           padding: const EdgeInsets.all(10),
           color: Colors.red,
